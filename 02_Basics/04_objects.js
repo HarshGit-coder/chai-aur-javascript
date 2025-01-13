@@ -52,3 +52,31 @@ const users = [
 // console.log(Object.values(tinderUser2))
 // console.log(Object.entries(tinderUser2))
 //it converts object keyValue pairs to array.. 
+
+console.log(tinderUser2.hasOwnProperty('isLoggedIn'));
+
+
+
+const course = {
+    courseName: "JavaScript",
+    price:  999,
+    courseInstructor:"Harsh"
+}
+
+const  {courseInstructor} = course;
+console.log(courseInstructor);
+//another syntax for printing objects..
+
+
+// {
+//    "name": "Aniket",
+//     "courseName": "Javascript",
+//     "price": "free"
+// } APi in object JSON format..
+
+[
+    {},
+    {},
+    {}
+]
+ //API is in JSON format.
