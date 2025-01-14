@@ -44,7 +44,7 @@ function loginUserMessage(username){
 function calculatCartPrice(...num1){
         return num1
 }
-console.log(calculatCartPrice(200, 4000, 400,200,700))
+// console.log(calculatCartPrice(200, 4000, 400,200,700))
 // ... triple dots are set to be as rest operator and spread operator it can multiple numbers as parameter and argument
 
 
@@ -52,3 +52,21 @@ const user = {
     username: "Aniket",
     price: 199, 
 }
+function handleObject(anyObject){
+console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`)
+}
+
+ handleObject(user)
+
+//  handleObject ({
+// username: "Sam",
+// price: 299
+
+// })
+
+const myNewArray = [100, 200, 300, 400, 500, 600]
+function returnSecondValue(getArray){
+    return(getArray[2])
+}
+
+console.log(returnSecondValue(myNewArray));
